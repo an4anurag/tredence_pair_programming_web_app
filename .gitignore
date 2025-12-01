@@ -1,2 +1,8 @@
-./backend/.env
-./backend/.env.example
+/backend/.env
+/backend/.env.example
+# Ignore sensitive configuration files
+config.ini
+
+# Ignore operating system and editor files
+.DS_Store
+.vscode/
